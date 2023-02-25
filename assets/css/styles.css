@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+div.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50vw;
+}
+a.nav-link{
+    background-color: #d90368;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #F4D9E7;
+}
+.form-control{
+    color: #F4D9E7;
+}
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #d90368;
+    color: #F4D9E7;
+    height: 20vh;
+}
+.card-img-top{
+    box-shadow: 2px 2px 4px #d90368;
+}
+.card-mb-1{
+    background-color: aqua;
+    height: 82vh;
+}
+#cinema{
+    width: 50vw;
+}
+.col-md-4{
+    background-color: brown;
+    width: 100vw;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+    background-color: #d90368;
+}
+.net{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 5vh;
+    width: 20vw;
+}
+.ig:hover{
+    transition: all 600ms;
+    filter: invert(1);
+}
+.fb:hover{
+    transition: all 600ms;
+    filter: invert(1);
+}
+.wa:hover{
+    transition: all 600ms;
+    filter: invert(1);
+}
+.co-num{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 75vw;
+    color: #F4D9E7;
+}
+.form{
+    padding-top: 5vh;
+}
+.main-contact{
+    height: 62vh;
+}
+table{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.col-th{
+    width: 90vw;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #F4D9E7;
+}
+.tab-td{
+    padding-left: 5px;
+    border: 1px solid black;
+}
+
+.main-card{
+    width: 100%;
+    height: 509px;
+}
+
+.card-double{
+    width: 59%;
+    height: 450px;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid #d90368;
+    border-radius: 5px;
+    background-color: #F4D9E7;
+}
+.left-cine{
+    width: 50%;
+    background-image: url(../images/Cinema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -8px -8px 30px #d90368;
+    border-radius: 5px;
+}
+.left-costume{
+    background-image: url(../images/Costume_Party.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -8px -8px 30px #d90368;
+    border-radius: 5px;
+}
+.left-food{
+    background-image: url(../images/Food_Fair.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -8px -8px 30px #d90368;
+    border-radius: 5px;
+}
+.left-mara{
+    background-image: url(../images/Marathon.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -8px -8px 30px #d90368;
+    border-radius: 5px;
+}
+.left-museum{
+    background-image: url(../images/Museum_Tour.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -8px -8px 30px #d90368;
+    border-radius: 5px;
+}
+.left-music{
+    background-image: url(../images/Music_Concert.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -8px -8px 30px #d90368;
+    border-radius: 5px;
+}
+.rigth{
+    width: 50%;
+    line-height: 1;
+}
+.btn-back{
+    background-color: #d90368;
+    border-radius: 5px;
+    color: #F4D9E7;
+    text-decoration: none;
+}
